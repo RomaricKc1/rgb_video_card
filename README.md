@@ -34,3 +34,4 @@ displaying new char again.
 - [ ] Lower case ASCII char
 - [ ] Support for extended ASCII char
 - [ ] Punctuation char
+- [ ] Use RGB colors (monochrome 4-bit in use as of now)
