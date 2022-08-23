@@ -18,7 +18,7 @@ To display a char, simply address the ROM with the char ASCII code.
 
 Eg:
 ```
-0x41 is for the leter A, 0x30 is for 0 and so on.
+0x41 is for the letter A, 0x30 is for 0 and so on.
 ```
 
 # Built-in cursor management: 
