@@ -32,7 +32,7 @@ displaying new char again.
 # Clear pixel
 Simply write monochrome 4-bit color code ```0000``` to overwrite current pixel with ```black``` color. Different colors can be used depending on the color code [1](https://en.wikipedia.org/wiki/List_of_monochrome_and_RGB_color_formats)
 
-![alt text](./Img2.jpg)
+![alt text](./color.jpg)
 
 # Missing features
 - [x] Clear portion of the display
