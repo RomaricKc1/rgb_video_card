@@ -156,6 +156,9 @@
       <a name="label" val="x"/>
       <a name="width" val="5"/>
     </comp>
+    <comp lib="0" loc="(820,370)" name="Pin">
+      <a name="appearance" val="classic"/>
+    </comp>
     <comp lib="0" loc="(860,380)" name="Clock"/>
     <comp lib="0" loc="(870,490)" name="Probe">
       <a name="appearance" val="classic"/>
@@ -198,7 +201,9 @@
     <wire from="(650,400)" to="(650,410)"/>
     <wire from="(730,300)" to="(760,300)"/>
     <wire from="(730,340)" to="(760,340)"/>
+    <wire from="(820,370)" to="(870,370)"/>
     <wire from="(860,380)" to="(880,380)"/>
+    <wire from="(870,360)" to="(870,370)"/>
     <wire from="(870,410)" to="(890,410)"/>
     <wire from="(870,430)" to="(920,430)"/>
     <wire from="(870,450)" to="(910,450)"/>
@@ -389,6 +394,7 @@ e 8*0 e 11 11 11 f 1
     </comp>
     <comp lib="0" loc="(140,310)" name="Pull Resistor">
       <a name="facing" val="north"/>
+      <a name="pull" val="1"/>
     </comp>
     <comp lib="0" loc="(160,220)" name="Tunnel">
       <a name="label" val="WE"/>
