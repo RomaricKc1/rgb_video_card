@@ -6,7 +6,7 @@ The display is 128x64 pixel dots.
 
 Each character makes up 5 by 8 dots, Hence the aspect ratio is ```21:7``` (with padding on each side).
 
-![alt text](./img.jpg)
+![alt text](./img2.jpg)
 
 ### Customizable character set. Mine is surely awful. Generate your own char set [here](https://maxpromer.github.io/LCD-Character-Creator/). Make sure to use ```hex``` values.
 
