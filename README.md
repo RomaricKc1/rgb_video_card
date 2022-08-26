@@ -6,7 +6,7 @@ The display is 128x64 pixel dots.
 
 Each character makes up 5 by 8 dots, Hence the aspect ratio is ```21:7``` (with padding on each side).
 
-![alt text](./img2.jpg)
+![alt_text](./Img.jpg)
 
 ### Customizable character set. Mine is surely awful. Generate your own char set [here](https://maxpromer.github.io/LCD-Character-Creator/). Make sure to use ```hex``` values.
 
@@ -29,8 +29,13 @@ Simply set the desired cursor position ```(x, y)``` and address the cgram to dis
 At the end of a char fully displayed, a stop flag is raised and need to be cleared ```reset pin of a register```. Simply write ```1``` and ```0``` (push button like) to start
 displaying new char again.
 
+# Clear pixel
+Simply write monochrome 4-bit color code ```0000``` to overwrite current pixel with ```black``` color. Different colors can be used depending on the color code [1](https://en.wikipedia.org/wiki/List_of_monochrome_and_RGB_color_formats)
+
+![alt text](./Img2.jpg)
+
 # Missing features
-- [ ] Clear portion of the display
+- [x] Clear portion of the display
 - [ ] Lower case ASCII char
 - [ ] Support for extended ASCII char
 - [ ] Punctuation char
